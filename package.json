@@ -1,5 +1,5 @@
 {
-  "name": "@element-plus/icons-monorepo",
+  "name": "@cs-element-plus/icons-monorepo",
   "private": true,
   "license": "MIT",
   "scripts": {
@@ -8,7 +8,8 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "lint:fix": "eslint --fix . --ext .vue,.js,.ts,.jsx,.tsx,.json --max-warnings 0",
     "format": "prettier --write . && pnpm run -C ./packages/svg optimize",
-    "release": "bumpp packages/*/package.json"
+    "release": "bumpp packages/*/package.json",
+    "publish:pre": "node prePublish"
   },
   "devDependencies": {
     "@sxzz/eslint-config": "^2.2.2",

@@ -1,20 +1,20 @@
 {
-  "name": "@element-plus/icons-svg",
+  "name": "@cs-element-plus/icons-svg",
   "version": "2.0.6",
-  "description": "SVG icon for Element Plus Icons collection.",
+  "description": "SVG icon for Cs Element Plus Icons collection.",
   "keywords": [
     "icon",
     "svg",
-    "element-plus"
+    "cs-element-plus"
   ],
   "license": "MIT",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://cs.bgy.com.cn/plus",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-icons/issues"
+    "url": "https://git.bgy.com.cn/pt00057/cs-element-plus-icons/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git@git.bgy.com.cn:pt00057/cs-element-plus-icons.git",
     "directory": "packages/svg"
   },
   "files": [

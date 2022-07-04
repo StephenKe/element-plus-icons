@@ -1,22 +1,22 @@
 {
-  "name": "@element-plus/icons-vue",
+  "name": "@cs-element-plus/icons-vue",
   "version": "2.0.6",
-  "description": "Vue components of Element Plus Icons collection.",
+  "description": "Vue components of Cs Element Plus Icons collection.",
   "type": "module",
   "keywords": [
     "icon",
     "svg",
     "vue",
-    "element-plus"
+    "cs-element-plus"
   ],
   "license": "MIT",
-  "homepage": "https://element-plus.org/",
+  "homepage": "https://cs.bgy.com.cn/plus",
   "bugs": {
-    "url": "https://github.com/element-plus/element-plus-icons/issues"
+    "url": "https://git.bgy.com.cn/pt00057/cs-element-plus-icons/issues"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/element-plus/element-plus-icons.git",
+    "url": "git@git.bgy.com.cn:pt00057/cs-element-plus-icons.git",
     "directory": "packages/vue"
   },
   "files": [
@@ -56,7 +56,7 @@
     "vue": "^3.2.0"
   },
   "devDependencies": {
-    "@element-plus/icons-svg": "workspace:*",
+    "@cs-element-plus/icons-svg": "workspace:*",
     "@pnpm/find-workspace-dir": "^4.0.2",
     "@pnpm/find-workspace-packages": "^4.0.17",
     "@pnpm/logger": "^4.0.0",

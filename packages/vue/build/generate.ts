@@ -14,12 +14,12 @@ import type { BuiltInParserName } from 'prettier'
 
 const getSvgFiles = async () => {
   const pkgs = await // @ts-expect-error
-  (findWorkspacePackages.default as typeof findWorkspacePackages)(
-    // @ts-expect-error
-    (await findWorkspaceDir.default(process.cwd()))!
-  )
+    (findWorkspacePackages.default as typeof findWorkspacePackages)(
+      // @ts-expect-error
+      (await findWorkspaceDir.default(process.cwd()))!
+    )
   const pkg = pkgs.find(
-    (pkg) => pkg.manifest.name === '@element-plus/icons-svg'
+    (pkg) => pkg.manifest.name === '@cs-element-plus/icons-svg'
   )!
   return glob('*.svg', { cwd: pkg.dir, absolute: true })
 }

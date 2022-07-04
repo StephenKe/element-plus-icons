@@ -10,7 +10,7 @@
 </template>
 
 <script lang="ts" setup>
-import { icons } from '@element-plus/icons-vue/global'
+import { icons } from '@cs-element-plus/icons-vue/global'
 </script>
 
 <style>
