@@ -1,7 +1,7 @@
 {
-  "name": "@element-plus/icons-vue",
-  "version": "2.0.9",
-  "description": "Vue components of Element Plus Icons collection.",
+  "name": "@cs-element-plus/icons-vue",
+  "version": "2.0.6",
+  "description": "Vue components of Cs Element Plus Icons collection.",
   "type": "module",
   "keywords": [
     "icon",
